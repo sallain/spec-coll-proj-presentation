@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>SARA ALLAIN</title
+
+		<meta name="description" content="Special Collections Projects Librarian job talk">
+		<meta name="author" content="Sara Allain, adapted from reveal.js source code by Hakim El Hattab">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/moon.css" id="moon">
+
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+				<section>
+					<h2>Digitization Planning for Special Collections</h2>
+					<br />
+					<h4>Or: it's all about the money, money, money</h4>
+					<br />
+					<p>Sara Allain<br>Special Collections Librarian<br>Digital Scholarship Unit, UTSC Library</p>
+				</section>
+
+				<section>
+					<h3>We have amazing collections</h3>
+				</section>
+
+				<section>
+					<h3>And we have researchers who want to access them online</h3>
+				</section>
+
+				<section>
+					<h3>But we also have budgets</h3>
+					<br />
+					<small>And staffing shortages and cataloguing backlogs and software licenses and<br>CCPERB applications and hardware breakdowns and ...</small>
+				</section>
+
+				<section>
+					<h3>How do we make great digital projects with a finite amount of resources?</h3>
+				</section>
+
+				<section>
+					<section>
+						<h3>Leverage what we already have</h3>
+					</section>
+
+					<section>
+						<h4 align="left">When we catalogue:</h4>
+						<ul>
+							<li>Create good MARC records</li>
+							<li>Automate MARCXML export from the catalogue</li>
+							<li>Transform our good MARC automagically</li>
+							<li>Pollinate the catalogue with links to digital content</li>
+						</ul>
+					</section>
+
+					<section>
+						<img src="img/yorku_marc_example.png"></img>
+						<small>The Jugband: An Examination. 1974. ASC06556, Mariposa Folk Foundation, F0511.<br>Clara Thomas Archives and Special Collections, York University.<br><a href="http://digital.library.yorku.ca/yul-72175/jugband-examination">http://digital.library.yorku.ca/yul-72175/jugband-examination</a></small>
+					</section>
+
+					<section>
+						<img src="img/yorku_dc_example.png"></img>
+					</section>
+
+				</section>
+
+				<section>
+					<section>
+						<h3>Stop, collaborate, and listen</h3>
+					</section>
+
+					<section>
+						<h4 align="left">When we develop infrastructure:</h4>
+						<ul>
+							<li>Build our tools together</li>
+							<li>Make our systems interoperable (in and out of the university)</li>
+							<li>Share our training and experiential learning</li>
+							<li>Contribute back to the community</li>
+						</ul>
+					</section>
+
+					<section>
+						<p>Photo of four different platforms to accomplish the above - JIRA, <em>AtoM for interoperability?</em>, Blackboard, Github</p>
+					</section>
+
+				</section>
+
+				<section>
+					<section>
+						<h3>Section title</h3>
+					</section>
+
+					<section>
+						<h4>When we do something:</h4>
+						<ul>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+					</section>
+
+					<section>
+					</section>
+
+				</section>
+
+				<section>
+					<h2>Questions?</h2>
+					<br /> <br />
+					<p>
+						<a href="mailto:sallain@utsc.utoronto.ca">sallain@utsc.utoronto.ca</a> &#x2022 <a href="http://twitter.com/archivalistic">@archivalistic</a>
+					</p>
+				</section>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
