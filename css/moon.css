@@ -54,8 +54,8 @@ body {
   margin: 0 0 20px 0;
   color: #ffffff;
   font-family: Trebuchet, Helvetica, sans-serif;
-  line-height: 0.9em;
   letter-spacing: 0.02em;
+  line-height: 1.1em;
   text-transform: uppercase;
   text-shadow: none; }
 
@@ -64,6 +64,7 @@ body {
 
 .reveal p {
   font-size: 23px;
+  line-height: 1.2em;
 }
 
 .reveal li {
