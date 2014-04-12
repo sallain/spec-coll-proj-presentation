@@ -60,7 +60,12 @@ body {
   text-shadow: none; }
 
 .reveal h2 {
-  text-shadow: #00171D 0.1em 0.1em 0.2em; }
+  text-shadow: #00171D 0.1em 0.1em 0.2em;
+}
+
+.reveal h4{
+  text-align: left;
+}
 
 .reveal p {
   font-size: 23px;
