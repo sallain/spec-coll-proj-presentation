@@ -37,6 +37,7 @@
 					<br />
 					<p>Sara Allain<br>Special Collections Librarian<br>Digital Scholarship Unit, UTSC Library</p>
 				</section>
+
 				<section>
 					<h3>The Collection</h3>
 					<p align="left">The Library has been given a collection of pre-1949 Canadian cookery materials. The collection includes:</p>
@@ -47,18 +48,28 @@
 						<li>Ephemeral material including menus and product advertisements</li>
 					</ul>
 				</section>
+
 				<section>
 					<h3>Assumptions</h3>
-					<p align="left">Within the context of this presentation, it is being assumed that:</p>
 					<ul>
 						<li>The collection was brought together by an individual, not a corporation</li>
 						<li>The deed of gift has been signed and no tax receipt was requested</li>
-						<li>The manuscript recipe books have identified authors</li>
-						<li>The photographs are all orphan works</li>
+						<li>All materials were created by individuals who have been dead for 50 years</li>
+						<li>The copyright term on corporate materials has lapsed</li>
 						<li>No donor restrictions were placed on the materials</li>
 						<li>Nothing has been identified as a privacy concern during appraisal/arrangement</li>
 					</ul>
 				</section>
+
+				<section>
+					<h3>Systems</h3>
+					<ul>
+						<li>Archival finding aid - Rules for Archival Description (RAD)</li>
+						<li>UofT Library Catalogue - MARC (MARCXML)</li>
+						<li>Islandora - Simple Dublin Core (DC XML)</li>
+					</ul>
+				</section>
+
 
 <!-- Arrangement -->
 
@@ -72,20 +83,19 @@
 							<li>Series A: Cookbooks</li>
 							<li>Series B: Recipe books</li>
 							<li>Series C: Regional agricultural fairs</li>
-							<li>Series D: Restaurant promotional material</li>
+							<li>Series D: Promotional material</li>
 						</ul>
 					</section>
 					<section>
 						<h4>Archival description</h4>
 						<ul>
-							<li>Considering our end outputs - MARC and Dublin Core</li>
+							<li>Considering end outputs - MARC and Dublin Core</li>
 							<li>Smart resource allocation + consistent information dissemination</li>
 							<li>Potential descriptive levels:</li>
 							<ul>
-								<li>Item-level for the cookbooks, photographs</li>
-								<li>Series/subseries level for the ephemera</li>
+								<li>Item-level for the cookbooks, recipe books, and photographs</li>
+								<li>Series/subseries level for everything else</li>
 							</ul>
-							<li>Implementing Encoded Archival Description (EAD)</li>
 						</ul>
 					</section>
 					<section>
@@ -111,6 +121,14 @@
 						<h3>Cataloguing</h3>
 					</section>
 					<section>
+						<h4>Automating MARC record creation</h4>
+						<ul>
+							<li>Encoded Archival Description (EAD), an open XML standard</li>
+							<li>ICA AtoM, an archival description platform that creates and publishes EAD</li>
+							<li>Transform EAD to MARCXML using an XSLT, i.e. <a href="https://github.com/Timathom/ead_transformations">ead_transformations</a></li>
+						</ul>
+					</section>
+					<section>
 						<img src="img/yorku_marc_example.png">
 						<small>The Jugband: An Examination. 1974. ASC06556, Mariposa Folk Foundation, F0511.<br>Clara Thomas Archives and Special Collections, York University.<br><a href="http://digital.library.yorku.ca/yul-72175/jugband-examination">http://digital.library.yorku.ca/yul-72175/jugband-examination</a></small>
 					</section>
@@ -121,9 +139,8 @@
 						<h4>Discoverability and pedagogy</h4>
 						<ul>
 							<li>Catalogued records accessible to the public</li>
-							<li>Implementing into classroom learning</li>
-							<li></li>
-							<li></li>
+							<li>Implementing the collection into classroom learning</li>
+							<li>Seeking out relationships with non-academic communities</li>
 						</ul>
 					</section>
 				</section>
@@ -135,46 +152,46 @@
 						<h3>Digitization</h3>
 					</section>
 					<section>
-						<h4>Digital object creation</h4>
-						<ul>
-							<li></li>
-							<li></li>
-							<li>Internet Archive</li>
-						</ul>
-					</section>
-					<section>
 						<h4>Metadata creation</h4>
 						<ul>
-							<li></li>
-							<li></li>
-							<li></li>
+							<li>Transform MARCXML or EAD into Dublin Core for ingest, or...</li>
+							<li>Use native Islandora MARCXML conversion</li>
 						</ul>
 					</section>
-				</section>
-
-<!-- Promotion -->
-
-				<section>
 					<section>
-						<h3>Ongoing outreach & promotion</h3>
+						<h4>Digital object creation</h4>
+						<ul>
+							<li>Sustainable workflows: training modules, open source software</li>
+							<li>Scanning: work-study students, Internet Archive</li>
+							<li>Digital projects: iSchool practicum students</li>
+							<li>Using Islandora batch ingests</li>
+						</ul>
 					</section>
 					<section>
-						<h4>Making content widely accessible</h4>
+						<h4>Adding value through outreach</h4>
 						<ul>
 							<li>Pollinate the catalogue with links to digital content</li>
-							<li>Form lasting relationships with our faculty collaborators</li>
-							<li>C</li>
-							<li>D</li>
+							<li>Public outreach:
+								<ul>
+									<li>Online: mapping projects, recipe collection, social tagging</li>
+									<li>In-person: exhibitions, teaching</li>
+								</ul>
+							<li>Ongoing communication with faculty and research centers</li>
 						</ul>
 					</section>
 				</section>
+
+<!-- Questions -->
+
 				<section>
 					<h2>Questions?</h2>
 					<br /> <br />
 					<p><a href="mailto:sallain@utsc.utoronto.ca">sallain@utsc.utoronto.ca</a> &#x2022 <a href="http://twitter.com/archivalistic">@archivalistic</a></p>
 					<p><a href="https://github.com/sallain/spec-coll-proj-presentation.git">github.com/sallain</a> &#x2022 <a href="https://storify.com/archivalistic/ead-marc-dc">storify.com/archivalistic/ead-marc-dc</a></p>
 				</section>
+
 <!-- Slides end -->
+
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.min.js"></script>
 		<script>
